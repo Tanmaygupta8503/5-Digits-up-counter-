@@ -1,0 +1,25 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.digit-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.digit {
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0 10px;
+  color: #555;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.digit.active {
+  opacity: 1;
+}
